@@ -1,5 +1,10 @@
 The source data is from the Human Activity Recognition Using Smartphones Data Set. A full description is available at: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones Used data: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
+Variables
+the downloaded data is x_train, x_test, y_train, y_test, subject_train and subject_test
+x_data, y_data and subject_data is a join of these data for analysis
+features contains the correct names for the x_data dataset. In the code i'm applying this as column names
+
 Execute the R script "run_analysis.R" to receive the tidy dataset.
 
 run_analysis.R does the following
@@ -9,7 +14,3 @@ run_analysis.R does the following
 4. Appropriately labels the data set with descriptive variable names. 
 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
-About variables:
-x_train, y_train, x_test, y_test, subject_train and subject_test contain the data from the downloaded files.
-x_data, y_data and subject_data merge the previous datasets to further analysis.
-features contains the correct names for the x_data dataset, which are applied to the column names stored in
